@@ -1,10 +1,18 @@
 import React from "react";
-import Button from "./Components/Button";
+import Crypto from "./Components/Crypto/Crypto";
+import Footer from "./Components/Footer";
+import Home from "./Components/Home";
+import MarketCap from "./Components/MarketCap";
+import Navbar from "./Components/NavBar/Navbar";
 
 function App() {
   return (
-    <div>
-      <Button type="Read More" />
+    <div className="">
+      <Navbar />
+      <Home />
+      <Crypto />
+      <MarketCap />
+      <Footer />
     </div>
   );
 }

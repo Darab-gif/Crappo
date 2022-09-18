@@ -21,7 +21,22 @@ module.exports = {
       black: "hsl(0, 0%, 0%)",
       jet: "hsl(0, 0%, 20%)",
     },
-    extend: {},
+
+    extend: {
+      backgroundImage: {
+        hero: "url(./Assests/hero-bg.png)",
+        mine: "url(./Assests/newsletter-box.png)",
+      },
+      keyframes: {
+        show: {
+          "0%": { backgroundColor: "hsl(225, 68%, 53%)" },
+          "100%": { backgroundColor: "hsl(218, 70%, 18%)" },
+        },
+      },
+    },
+    animation: {
+      show: "show 1s ease-in infinite",
+    },
   },
   plugins: [],
 };
