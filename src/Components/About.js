@@ -4,12 +4,12 @@ import why_img from "../Assests/why-img.png";
 
 const About = () => {
   return (
-    <section className="flex space-x-20 pt-20">
-      <figure className="h-[35rem] w-[35rem]">
+    <section className="lg:flex lg:flex-row lg:space-x-20 lg:pt-20 pt-2 flex flex-col-reverse">
+      <figure className="lg:h-[35rem] lg:w-[35rem] h-[20rem] w-[20rem] pt-5 -ml-4">
         <img src={why_img} alt="" />
       </figure>
-      <div className="pt-32 max-w-xl">
-        <h1 className="text-white text-5xl font-bold">
+      <div className="pt-32 lg:w-[35rem] w-[20rem] -ml-3">
+        <h1 className="text-white lg:text-5xl text-3xl font-bold">
           why you should choose CHAPPO
         </h1>
         <p className="pt-6 text-steel_blue pb-6">

@@ -3,24 +3,27 @@ import Button from "./Button";
 
 const Price = () => {
   return (
-    <section className="text-center pt-20 absolute -bottom-24">
-      <div>
+    <section className="lg:text-center pt-20 absolute -bottom-24">
+      <div className="w-[80%] lg:w-[100%] lg:ml-4 -ml-4">
         <h1 className="text-white text-3xl font-bold">
           How Much Can You Earn With Us
         </h1>
-        <p className="text-xl pt-6 text-steel_blue">
+        <p className="lg:text-xl text-md pt-6 text-steel_blue">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, id
           similique temporibus dignissimos tempore odio?
         </p>
       </div>
-      <div className="w-[60rem] rounded-md bg-cultured p-5 mt-8 ml-28">
-        <form action="" className="inline-flex space-x-20 p-8">
+      <div className="lg:w-[90%] w-[90%] rounded-md bg-cultured lg:p-5 p-2 mt-8 lg:ml-28">
+        <form
+          action=""
+          className="lg:flex lg:flex-row lg:gap-24 gap-10 flex flex-col p-8 -ml-4 lg:ml-4"
+        >
           <input
             type="text"
             placeholder="Enter your hash rate"
             className=" border-b-2 border-b-steel_blue  bg-cultured  outline-none text-xl w-[15rem]"
           />
-          <select className="border-b-2 border-b-steel_blue bg-cultured  outline-none w-[13rem] text-xl">
+          <select className="border-b-2 border-b-steel_blue bg-cultured  outline-none w-[15rem] text-xl">
             <option value="">TH/s</option>
             <option value="">H/s</option>
             <option value="">KH/s</option>
@@ -29,7 +32,7 @@ const Price = () => {
           </select>
           <Button type="Calculate" />
         </form>
-        <div className="text-left ml-10">
+        <div className="text-left lg:ml-10 ml-4 pb-2">
           <h2 className="text-2xl font-semibold text-royal_blue">
             ESTIMATED 24 HOUR REVENUE:
           </h2>

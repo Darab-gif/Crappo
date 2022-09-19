@@ -9,16 +9,16 @@ import { IoMdTrendingUp } from "react-icons/io";
 
 const Home = () => {
   return (
-    <section className="bg-hero pt-36 pl-20 relative h-[100rem]">
-      <div className="lg:flex lg:space-x-20">
+    <section className="bg-hero pt-20 lg:pt-36 pl-10 lg:pl-20 relative lg:h-[100rem] h-[154rem]">
+      <div className="lg:flex  lg:space-x-32">
         <div className="text-white ">
-          <div className="rounded-[50px] bg-sonic_silver w-[60%] flex space-x-4 py-1">
-            <span className="rounded-[50px] bg-cultured text-sonic_silver ml-2 px-2">
+          <div className="rounded-[50px] bg-sonic_silver w-[90%] lg:w-[60%] flex space-x-4 py-1">
+            <span className="rounded-[50px] bg-cultured text-sonic_silver ml-2 lg:px-2">
               70% save
             </span>
             <span className="pl-4"> for the best black friday deals</span>
           </div>
-          <h1 className="text-6xl font-semibold pt-5">
+          <h1 className="text-3xl lg:text-6xl font-semibold pt-5">
             Fastest & Secure <br />
             Platform To Invest In <br />
             Cypto
@@ -34,11 +34,11 @@ const Home = () => {
             </span>
           </button>
         </div>
-        <figure className="lg:-mt-12 h-[30rem] w-[30rem]">
+        <figure className="lg:-mt-12 lg:h-[30rem] lg:w-[30rem] w-[19rem] h-[19rem] pt-4 -ml-4">
           <img src={hero} alt="" />
         </figure>
       </div>
-      <div className="flex space-x-40 pt-20 pl-20">
+      <div className="lg:flex lg:flex-row flex flex-col  pt-20 lg:gap-36 gap-20   lg:pl-20">
         <div className="flex space-x-4">
           <span className="rounded-full h-[50px] w-[50px] flex justify-center items-center bg-sonic_silver text-oxford_blue_2">
             <IoIosStats size={30} />
