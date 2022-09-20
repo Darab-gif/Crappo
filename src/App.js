@@ -12,7 +12,7 @@ function App() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <Nav />
       <Home />
       <Crypto />
