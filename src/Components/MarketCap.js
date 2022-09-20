@@ -8,7 +8,7 @@ import Mining from "./Mining";
 const MarketCap = () => {
   return (
     <section className="bg-hero bg-cover pb-20">
-      <h1 className="text-white lg:text-3xl text-2xl lg:font-bold text-center pt-7 ">
+      <h1 className="text-white lg:text-3xl text-2xl lg:font-bold lg:w-full w-[80%] ml-8 text-center pt-7 ">
         Market Sentiments, Portfolio, And Run The Infrastructure Of Your Choice
       </h1>
       <div className="lg:flex flex lg:flex-row flex-col lg:gap-10 gap-20 pt-32">

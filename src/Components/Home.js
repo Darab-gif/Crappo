@@ -9,14 +9,14 @@ import { IoMdTrendingUp } from "react-icons/io";
 
 const Home = () => {
   return (
-    <section className="bg-hero pt-20 lg:pt-36 pl-10 lg:pl-20 relative lg:h-[100rem] h-[154rem]">
+    <section className="bg-hero pt-20 lg:pt-36 pl-8 lg:pl-20 relative lg:h-[100rem] h-[154rem]">
       <div className="lg:flex  lg:space-x-32">
         <div className="text-white ">
-          <div className="rounded-[50px] bg-sonic_silver w-[90%] lg:w-[60%] flex space-x-4 py-1">
-            <span className="rounded-[50px] bg-cultured text-sonic_silver ml-2 lg:px-2">
+          <div className="rounded-[50px] bg-sonic_silver w-[20rem] lg:w-[60%] flex space-x-3 h-7 lg:ml-4 -ml-4">
+            <span className="lg:rounded-[50px] rounded-[10px] bg-cultured flex justify-center items-center text-sonic_silver h-5 ml-2 px-2 m-1">
               70% save
             </span>
-            <span className="pl-4"> for the best black friday deals</span>
+            <span className="ml-4"> for the best black friday deals</span>
           </div>
           <h1 className="text-3xl lg:text-6xl font-semibold pt-5">
             Fastest & Secure <br />

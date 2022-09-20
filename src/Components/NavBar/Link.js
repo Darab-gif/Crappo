@@ -3,7 +3,7 @@ import React from "react";
 const Link = () => {
   return (
     <header className="">
-      <nav className="flex  gap-5">
+      <nav className="lg:flex lg:gap-5 hidden">
         <ul className=" capitalize flex space-x-4 text-white items-center content-center">
           <li className="hover:border-b-2 hover:border-b-royal_blue cursor-pointer">
             products

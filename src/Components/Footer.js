@@ -15,7 +15,7 @@ const Footer = () => {
         <figure className="ml-20 lg:ml-4">
           <img src={logo} alt="" />
         </figure>
-        <div className="lg:ml-20 ml-4 text-center ">
+        <div className="lg:ml-20 -ml-6  text-center ">
           <h1 className="text-2xl font-bold">Quick Links</h1>
           <ul className="pt-4 ">
             <li className="text-white hover:text-carolina_blue cursor-pointer">
@@ -35,7 +35,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="lg:ml-20 ml-4 text-center">
+        <div className="lg:ml-20 -ml-6 text-center">
           <h1 className="text-2xl font-bold">Resources Links</h1>
           <ul className="pt-4 ">
             <li className="text-white hover:text-carolina_blue cursor-pointer">
