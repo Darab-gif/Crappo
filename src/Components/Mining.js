@@ -2,7 +2,11 @@ import React from "react";
 
 const Mining = () => {
   return (
-    <section className="text-white rounded-md bg-mine bg-no-repeat w-[90%] lg:bg-contain bg-cover lg:ml-20 ml-4 mt-36 lg:h-[20rem] h-[20rem] lg:flex lg:justify-between lg:flex-row gap-6 flex flex-col">
+    <section
+      data-aos="zoom-in"
+      data-aos-duration="3000"
+      className="text-white rounded-md bg-mine bg-no-repeat w-[90%] lg:bg-contain bg-cover lg:ml-20 ml-4 mt-36 lg:h-[20rem] h-[20rem] lg:flex lg:justify-between lg:flex-row gap-6 flex flex-col"
+    >
       <div className="pt-8 ml-9">
         <h1 className="text-2xl font-bold">Start Mining Now</h1>
         <p className="lg:pt-9 pt-2 font-medium text-sm">

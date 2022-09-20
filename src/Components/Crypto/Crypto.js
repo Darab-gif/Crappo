@@ -49,7 +49,11 @@ const Crypto = () => {
 
   return (
     <section className="pt-60 bg-lavender_web text-center cursor-pointer pb-20">
-      <h1 className="lg:text-4xl text-2xl lg:w-[100%] w-[80%] ml-10 text-center font-bold">
+      <h1
+        className="lg:text-4xl text-2xl lg:w-[100%] w-[80%] ml-10 text-center font-bold"
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+      >
         Trade Securely And Market The High Growth Cryptocurrencies.
       </h1>
       <div className="lg:flex lg:gap-10 flex flex-col gap-10 lg:flex-row pt-14 lg:ml-28 ml-7">

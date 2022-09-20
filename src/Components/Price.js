@@ -4,7 +4,11 @@ import Button from "./Button";
 const Price = () => {
   return (
     <section className="lg:text-center pt-20 absolute -bottom-24">
-      <div className="w-[80%] lg:w-[100%] lg:ml-4 -ml-4">
+      <div
+        className="w-[80%] lg:w-[100%] lg:ml-4 -ml-4"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
         <h1 className="text-white text-3xl font-bold">
           How Much Can You Earn With Us
         </h1>
@@ -13,7 +17,11 @@ const Price = () => {
           similique temporibus dignissimos tempore odio?
         </p>
       </div>
-      <div className="lg:w-[90%] w-[90%] rounded-md bg-cultured lg:p-5 p-2 mt-8 lg:ml-28">
+      <div
+        className="lg:w-[90%] w-[90%] rounded-md bg-cultured lg:p-5 p-2 mt-8 lg:ml-28"
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+      >
         <form
           action=""
           className="lg:flex lg:flex-row lg:gap-24 gap-10 flex flex-col p-8 -ml-4 lg:ml-4"

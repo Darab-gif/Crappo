@@ -5,10 +5,18 @@ import why_img from "../Assests/why-img.png";
 const About = () => {
   return (
     <section className="lg:flex lg:flex-row lg:space-x-20 lg:pt-20 pt-2 flex flex-col-reverse">
-      <figure className="lg:h-[35rem] lg:w-[35rem] h-[20rem] w-[20rem] pt-5 -ml-4">
+      <figure
+        className="lg:h-[35rem] lg:w-[35rem] h-[20rem] w-[20rem] pt-5 -ml-4"
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+      >
         <img src={why_img} alt="" />
       </figure>
-      <div className="pt-32 lg:w-[35rem] w-[20rem] -ml-3">
+      <div
+        className="pt-32 lg:w-[35rem] w-[20rem] -ml-3"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
         <h1 className="text-white lg:text-5xl text-3xl font-bold">
           why you should choose CHAPPO
         </h1>
