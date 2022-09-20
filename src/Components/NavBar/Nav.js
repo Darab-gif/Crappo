@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 const Nav = () => {
   const [show, setShow] = useState(false);
   return (
-    <section>
+    <section className="relative">
       <Navbar MobileLink={setShow} />
       <div
         className={`${
